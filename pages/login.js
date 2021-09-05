@@ -41,11 +41,12 @@ export default function Login() {
 const login = async (event) => {
     event.preventDefault();
     try {
-        const res = await axios.post('http://login.thepcvit.com/login', {
-            email, password
+        const res = await axios.post('http://login-thepc.herokuapp.com/login', {
+            email: email.value,
+            password: password.value
         })
 
-        console.log(res);
+        console.log(res.data.foundUser);
     } catch (error) {
         
     }
