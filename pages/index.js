@@ -16,9 +16,9 @@ export default function Home() {
           </div>
         </div>
 
-      <footer className={styles.footer}>
-        
-      </footer>
+      {/* <footer className={styles.footer}>
+          &copy;2021-22 The Hindu Education Plus Club, VIT - Vellore.
+      </footer> */}
     </>
   )
 }

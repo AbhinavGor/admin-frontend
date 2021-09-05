@@ -47,6 +47,10 @@
   border-radius: 10px;
 }
 
+.card button:hover {
+  cursor: pointer;
+}
+
 .hero:before {
   background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
 }
