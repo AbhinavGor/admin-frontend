@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <div className={styles.hero}>
           <div className={styles.card}>
             <h1>THEPC - Admin Dashboard</h1>
-            <a href="/login"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button></a>
+            <Link href="/login"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button></Link>
           </div>
         </div>
 
